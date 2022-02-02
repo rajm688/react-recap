@@ -1,0 +1,22 @@
+1. react is an js framework mainly a library for creating user interface
+2. three main advantages of react are
+    * SPA - Single Page Application -> whenever there is a change in the webpage insterd of refreshing the whole page the compoent will only get updated
+    * Resuable Components -> there are two types of components in react  
+        * functional Components -> function name should be in capital and it returns JSX (javascript XML)
+            * in functional components there are state 
+                * state -> in react are nothig but the current value or state of the component based on which the component will get updated
+                * in order to work with state we have hook in functional components -> hooks are nothing but the functions helps to work with react states
+                    *sume of the react functional component states hooks are
+                        * useState -> gives a state and a function to update a state
+                        * useParams -> helps to get value from URL
+                        * useHistory -> helps in updating URL
+                        * useEffect  -> used to trigger functions if there is any changes in components
+                        * useContext -> helps to pass state to different components
+
+        * Class Components 
+    * Virtual DOM -> react maintains a virtual DOM and mal=kes necessary changes to it and updates the browser DOM only when necessery
+
+3. getting Started
+    * to create a react app use npx create-react-app .
+    * code . to open VS code
+4. 
